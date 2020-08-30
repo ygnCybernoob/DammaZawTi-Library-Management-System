@@ -1,0 +1,5 @@
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_INFO\bin\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_INFO\bin\Debug\LMS_INFO.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_INFO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_INFO\obj\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_INFO\obj\Debug\LMS_INFO.pdb

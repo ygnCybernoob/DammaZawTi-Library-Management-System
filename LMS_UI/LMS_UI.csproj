@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CED4C499-B7CC-441C-AAE6-7F9376659F3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LMS_UI</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <Win32Resource>
+    </Win32Resource>
+    <ApplicationIcon>Software_Image.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>C:\Users\Michael\Desktop\LMS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Library Management System</ProductName>
+    <PublisherName>THE GEEK TECHNOLOGY</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>622D4064D0FE8902E5CC3E6A1061CA6D5572C3F1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LMS_UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>.\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSetting.cs" />
+    <Compile Include="FrmBarcodeGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBarcodeGenerator.Designer.cs">
+      <DependentUpon>FrmBarcodeGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookReport.Designer.cs">
+      <DependentUpon>FrmBookReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFeedbackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFeedbackList.Designer.cs">
+      <DependentUpon>FrmFeedbackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBook.Designer.cs">
+      <DependentUpon>FrmBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookCategory.Designer.cs">
+      <DependentUpon>FrmBookCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookLostDamage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookLostDamage.Designer.cs">
+      <DependentUpon>FrmBookLostDamage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBookSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookSearch.Designer.cs">
+      <DependentUpon>FrmBookSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLostOrDamage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLostOrDamage.Designer.cs">
+      <DependentUpon>FrmLostOrDamage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReturnedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReturnedList.Designer.cs">
+      <DependentUpon>FrmReturnedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePassword.Designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEducation.Designer.cs">
+      <DependentUpon>FrmEducation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFeedback.Designer.cs">
+      <DependentUpon>FrmFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFeedbackViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFeedbackViewer.Designer.cs">
+      <DependentUpon>FrmFeedbackViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFine.Designer.cs">
+      <DependentUpon>FrmFine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin_OpenAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin_OpenAdmin.Designer.cs">
+      <DependentUpon>FrmLogin_OpenAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowedQtyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowedQtyReport.Designer.cs">
+      <DependentUpon>FrmBorrowedQtyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemberReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemberReport.Designer.cs">
+      <DependentUpon>FrmMemberReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOverDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOverDay.Designer.cs">
+      <DependentUpon>FrmOverDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRentingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRentingList.Designer.cs">
+      <DependentUpon>FrmRentingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSearchBook_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchBook_View.Designer.cs">
+      <DependentUpon>FrmSearchBook_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplash.Designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLibraryType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLibraryType.Designer.cs">
+      <DependentUpon>FrmLibraryType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLibraryInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLibraryInformation.Designer.cs">
+      <DependentUpon>FrmLibraryInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLibrarian.Designer.cs">
+      <DependentUpon>FrmLibrarian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthor.Designer.cs">
+      <DependentUpon>FrmAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember.Designer.cs">
+      <DependentUpon>FrmMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemberType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemberType.Designer.cs">
+      <DependentUpon>FrmMemberType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOccupation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOccupation.Designer.cs">
+      <DependentUpon>FrmOccupation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServerRegister.Designer.cs">
+      <DependentUpon>FrmServerRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBorrowReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBorrowReturn.Designer.cs">
+      <DependentUpon>FrmBorrowReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTopRent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTopRent.Designer.cs">
+      <DependentUpon>FrmTopRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTownship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTownship.Designer.cs">
+      <DependentUpon>FrmTownship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVillage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVillage.Designer.cs">
+      <DependentUpon>FrmVillage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmZawgyiHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZawgyiHelp.Designer.cs">
+      <DependentUpon>FrmZawgyiHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBarcodeGenerator.resx">
+      <DependentUpon>FrmBarcodeGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookReport.resx">
+      <DependentUpon>FrmBookReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFeedbackList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFeedbackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBook.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookCategory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBookCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookLostDamage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBookLostDamage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBookSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLostOrDamage.resx">
+      <DependentUpon>FrmLostOrDamage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReturnedList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReturnedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEducation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEducation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFeedback.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFeedbackViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFeedbackViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFine.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLibraryInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLibraryInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin_OpenAdmin.resx">
+      <DependentUpon>FrmLogin_OpenAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowedQtyReport.resx">
+      <DependentUpon>FrmBorrowedQtyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemberReport.resx">
+      <DependentUpon>FrmMemberReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemberType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMemberType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOccupation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOccupation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOverDay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOverDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRentingList.resx">
+      <DependentUpon>FrmRentingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchBook_View.resx">
+      <DependentUpon>FrmSearchBook_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLibraryType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLibraryType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLibrarian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLibrarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServerRegister.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmServerRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBorrowReturn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBorrowReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTopRent.resx">
+      <DependentUpon>FrmTopRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTownship.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTownship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVillage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVillage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZawgyiHelp.resx">
+      <DependentUpon>FrmZawgyiHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LMS_UI_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LMS_BLL\LMS_BLL.csproj">
+      <Project>{91B93C3D-1EFD-4AEA-AAB9-1F23FF739A96}</Project>
+      <Name>LMS_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LMS_INFO\LMS_INFO.csproj">
+      <Project>{1A9F19AC-B13D-45F0-8AB6-448CBAB599F9}</Project>
+      <Name>LMS_INFO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library Management System.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library Management System_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Library Management System.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\note.png" />
+    <None Include="Resources\search-1.png" />
+    <None Include="Resources\search-7.jpg" />
+    <None Include="Resources\f186006424.png" />
+    <None Include="Resources\search-11.png" />
+    <None Include="Resources\search-2.png" />
+    <None Include="Resources\library-1.png" />
+    <None Include="Resources\-icons-smart-objects-3d-book-mockup-psd-address-book-icon-psd-preview-51.png" />
+    <None Include="Resources\Message.png" />
+    <None Include="Resources\if_Refresh_27873.png" />
+    <None Include="Resources\AlphaZawgyi.jpg" />
+    <None Include="Resources\books-icon1.png" />
+    <Content Include="Software_Image.ico" />
+    <None Include="Resources\home-icon.png" />
+    <None Include="Resources\raphael_dollar-sign_simple-green-gradient_512x512.png" />
+    <None Include="Resources\f186007816.png" />
+    <None Include="Resources\f186008704.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\login-icon-png-27.png" />
+    <None Include="Resources\f186009080.png" />
+    <None Include="Resources\b2.png" />
+    <None Include="Resources\1024px-Closed_Book_Icon.svg2.png" />
+    <None Include="Resources\book21.png" />
+    <None Include="Resources\book2.png" />
+    <None Include="Resources\585e4bcdcb11b227491c3396.png" />
+    <None Include="Resources\glare_circles_background_color_size_19978_1920x1080.jpg" />
+    <None Include="Resources\QVFUaZP.jpg" />
+    <None Include="Resources\green-triangle-3.png" />
+    <None Include="Resources\1024px-Closed_Book_Icon.svg1.png" />
+    <None Include="Resources\book.png" />
+    <None Include="Resources\books-icon.png" />
+    <None Include="Resources\Books-Android-R.png" />
+    <None Include="Resources\-icons-smart-objects-3d-book-mockup-psd-address-book-icon-psd-preview-5.png" />
+    <None Include="Resources\member-icon-272x272.png" />
+    <None Include="Resources\1024px-Closed_Book_Icon.svg.png" />
+    <None Include="Resources\library_icon.png" />
+    <None Include="Resources\abstract-background-design_1297-84.jpg" />
+    <None Include="Resources\Buttons-PNG-Image-35015.png" />
+    <None Include="Resources\user_administrator_blue_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

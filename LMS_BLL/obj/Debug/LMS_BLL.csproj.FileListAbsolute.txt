@@ -1,0 +1,27 @@
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_BLL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_DAL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_DAL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\bin\Debug\LMS_INFO.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\obj\Debug\LMS_BLL.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\obj\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_BLL\obj\Debug\LMS_BLL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_BLL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_DAL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_DAL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\bin\Debug\LMS_INFO.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\obj\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - 2010(BC)\Library Management System - 2010\LMS_BLL\obj\Debug\LMS_BLL.pdb
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_BLL.pdb
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_DAL.dll
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_DAL.pdb
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\bin\Debug\LMS_INFO.pdb
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\obj\Debug\LMS_BLL.dll
+C:\Users\Michael\Documents\1.Tech\6.My Software\C#\Library Management System\LMS_BLL\obj\Debug\LMS_BLL.pdb

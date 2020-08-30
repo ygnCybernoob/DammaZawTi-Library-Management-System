@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\bin\Debug\LMS_DAL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\bin\Debug\LMS_DAL.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\bin\Debug\LMS_INFO.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\bin\Debug\LMS_INFO.pdb
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\obj\Debug\LMS_DAL.dll
+C:\Users\Michael\Documents\Visual Studio 2005\projects\Library Management System - Copy\LMS_DAL\obj\Debug\LMS_DAL.pdb
